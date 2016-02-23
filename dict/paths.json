@@ -1,0 +1,7 @@
+{ 
+	"/" : "html/index.html", 
+	"/index" : "html/index.html",
+	"/index.html" : "html/index.html",
+	"/css/index.css" : "css/index.css",
+	"/favicon.ico" : "images/favicon.ico"
+}
