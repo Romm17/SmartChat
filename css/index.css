@@ -1,3 +1,88 @@
-h1 {
-	color: red;
+body {
+	background: #EEFFEE;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+#title {
+	background: #0000A0;
+}
+
+#title {
+	width: 600px;
+	margin: 20px auto;
+	position: relative;
+	height: 60px;
+	border-radius: 5px;
+}
+
+#title div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+	line-height: 40px;
+	height: 40px;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+
+#title div p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #0000A0;
+}
+
+#title p {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#title > p {
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+
+#activeBox {
+	height: 100px;
+	width: 600px;
+	background: rgba(255, 255, 255, 0.5);
+	margin: auto;
+	padding: 5px;
+}
+
+#activeBox textarea {
+	height: 90px;
+	width: 590px;
+	resize: none;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+.passiveMeBox {
+	width: 600px;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.passiveMeBox p {
+	margin: 0;
+}
+
+.passiveYouBox {
+	width: 600px;
+	background: rgba(0, 0, 255, 0.5);
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.passiveYouBox p {
+	margin: 0;
+	text-align: right;
 }

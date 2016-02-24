@@ -3,5 +3,7 @@
 	"/index" : "html/index.html",
 	"/index.html" : "html/index.html",
 	"/css/index.css" : "css/index.css",
-	"/favicon.ico" : "images/favicon.ico"
+	"/favicon.ico" : "images/favicon.ico",
+	"/js/index.js" : "js/index.js",
+	"/js/jquery-2.2.0.min.js" : "js/jquery-2.2.0.min.js"
 }
